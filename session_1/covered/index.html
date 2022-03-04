@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <!-- A title to be displayed on the browser tab -->
+    <title>Hello, HTML!</title>
+
+    <!-- Metadata to be used by the browser and search engines -->
+    <meta name="author" content="Amr Saeed">
+    <meta name="description" content="A document that explains tags">
+    <meta name="keywords" content="HTML, tags">
+    <meta charset="UTF-8">
+
+    <!-- CSS stlyes for table. Ignore it for now. -->
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Headings -->
+    <h1>Hello, HTML!</h1>
+    <h2>Hello, HTML!</h2>
+    <h3>Hello, HTML!</h3>
+    <h4>Hello, HTML!</h4>
+    <h5>Hello, HTML!</h5>
+    <h6>Hello, HTML!</h6>
+    <hr>
+
+    <!-- Paragraph -->
+    <p>
+        Lorem Ipsum is simply dummy text of the printing and
+        typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown
+        printer took a galley of type and scrambled it to make a
+        type specimen book. It has survived not only five centuries,
+        but also the leap into electronic typesetting,
+        remaining essentially unchanged.
+    </p>
+    <hr>
+
+    <!-- A preformatted text -->
+    <pre>
+        Lorem Ipsum is simply dummy text of the printing and
+        typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown
+        printer took a galley of type and scrambled it to make a
+        type specimen book. It has survived not only five centuries,
+        but also the leap into electronic typesetting,
+        remaining essentially unchanged.
+    </pre>
+    <hr>
+
+    <!-- Code text -->
+    <code>int x = 5;</code>
+    <p>
+        This code <code>int x = 5;</code> initializes x with the value of 5.
+    </p>
+    <hr>
+
+    <!-- Entities are used to display reserved characters -->
+    <p>
+        I'm the &#60;p&#62 tag!
+    </p>
+    <p>
+        I'm the &ltp&gt tag!
+    </p>
+    <hr>
+
+    <!-- Symbols are used to display characters not present in the keyboard -->
+    <p>
+        &copy; or &#169;
+    </p>
+    <hr>
+
+    <!-- Line break -->
+    <br>
+    <p>
+        Hello,
+        <br>
+        World!
+    </p>
+    <br>
+    <hr>
+
+    <!-- Link to a URL or another document -->
+    <a href="https://google.com">Google link</a>
+    <br>
+    <a href="./another_document.html" target="_blank">Link to another document with relative path</a>
+    <br>
+    <a href="/home/amrsaeedhosny/Projects/github/hello-web-development/session_1/covered/another_document.html">
+        Link to another document with absolute path
+        <!-- This absolute path exists only on my machine!-->
+    </a>
+    <hr>
+
+    <!-- Image -->
+    <img src="./Khaby-lame-300x295.jpg" alt="Khaby Lame">
+    <img src="https://internethelpline.in/wp-content/uploads/2021/07/Khaby-lame-300x295.jpg" alt="Khaby Lame"
+        width="300px" height="100px">
+    <img src="/home/amrsaeedhosny/Projects/github/hello-web-development/session_1/covered/Khaby-lame-300x295.jpg"
+        alt="Khaby Lame">
+    <!-- This absolute path exists only on my machine!-->
+    <hr>
+
+    <!-- Bold text -->
+    <b>Bold text</b>
+    <hr>
+
+    <!-- Bold text with importance -->
+    <strong>Strong text</strong>
+    <hr>
+
+    <!-- Italic text -->
+    <i>Italic text</i>
+    <hr>
+
+    <!-- Italic text with emphasize -->
+    <em>Emphasized text</em>
+    <hr>
+
+    <!-- A long quote block -->
+    <blockquote cite="https://en.wikipedia.org/wiki/HTML">
+        The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in
+        a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages
+        such as JavaScript.
+    </blockquote>
+    <hr>
+
+    <!-- An inline short quote -->
+    <p>
+        As Bill Gates said <q cite="https://www.uschamber.com/co/start/strategy/bill-gates-business-quotes">Success is a
+            lousy teacher</q>!
+    </p>
+    <hr>
+
+    <!-- An abbriviation-->
+    <p><abbr title="Hyper Text Markup Language">HTML</abbr> is awesome!</p>
+    <hr>
+
+    <!-- Unordered list -->
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <ul type="square">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <ul type="circle">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <hr>
+
+    <!-- Ordered list -->
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    <ol type="A">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    <ol type="I">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    <ol reversed>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    <hr>
+
+    <!-- Description list -->
+    <dl>
+        <dt>Item 1</dt>
+        <dd>This is the description of item 1</dd>
+        <dt>Item 2</dt>
+        <dd>This is the description of item 2</dd>
+    </dl>
+    <hr>
+
+    <!-- Divison tag works as a generic container -->
+    <div>
+        <h2>Lorem Ipsum Title</h2>
+        <p>
+            Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry. Lorem Ipsum has been the industry's
+            standard dummy text ever since the 1500s, when an unknown
+            printer took a galley of type and scrambled it to make a
+            type specimen book. It has survived not only five centuries,
+            but also the leap into electronic typesetting,
+            remaining essentially unchanged.
+        </p>
+        <p>
+            Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry. Lorem Ipsum has been the industry's
+            standard dummy text ever since the 1500s, when an unknown
+            printer took a galley of type and scrambled it to make a
+            type specimen book. It has survived not only five centuries,
+            but also the leap into electronic typesetting,
+            remaining essentially unchanged.
+        </p>
+    </div>
+    <hr>
+
+    <!-- Span tag works as an inline container -->
+    <p>
+        This is a <span style="color: red">red</span> word!
+    </p>
+
+    <!-- Iframe embeds another document inside another -->
+    <iframe src="./another_document.html"></iframe>
+    <iframe src="https://google.com" height="350px" width="350px"></iframe>
+    <hr>
+
+    <!-- Table -->
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Amr</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Ali</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th colspan="2">Name</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Amr</td>
+            <td>Saeed</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <th>Name</th>
+            <td>Amr</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Phone</th>
+            <td>0123456789</td>
+        </tr>
+        <tr>
+            <td>012781234</td>
+        </tr>
+    </table>
+    <hr>
+
+    <!-- Form-->
+    <form action="./another_document.html" target="_blank" method="GET">
+        <!-- Text -->
+        <label>Username:</label><br>
+        <input type="text" name="username"><br>
+        <!-- Password -->
+        <label>Password:</label><br>
+        <input type="password" name="password"><br>
+        <!-- Radio -->
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="Male">
+        <label>Male</label><br>
+        <input type="radio" name="gender" value="Female">
+        <label>Female</label><br>
+        <!-- Checkbox -->
+        <label>Programming languages you know:</label><br>
+        <input type="checkbox" name="lang" value="python">
+        <label>Python</label><br>
+        <input type="checkbox" name="lang" value="cpp">
+        <label>Cpp</label><br>
+        <!-- Email -->
+        <label>Email:</label><br>
+        <input type="email" name="email"><br>
+        <!-- File -->
+        <label>File:</label><br>
+        <input type="file" name="myfile"><br>
+        <!-- Date -->
+        <label>Date:</label><br>
+        <input type="date" name="mydate"><br>
+        <!-- Range -->
+        <label>Range:</label><br>
+        <input type="range" name="myrange" min="0" max="50"><br>
+        <!-- Drop down menu -->
+        <label>Cars:</label><br>
+        <select name="cars">
+            <option value="toyota">Toyota</option>
+            <option value="bmw">BMW</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="tesla">Tesla</option>
+        </select>
+        <br>
+        <!-- Text area -->
+        <textarea name="mytextarea" cols="50" rows="10">My text area</textarea>
+        <br>
+        <!-- Input Button -->
+        <input type="button" value="My Button"><br>
+        <input type="submit" value="My Submit Button"><br>
+        <!-- Tag Button -->
+        <button type="submit"><b>Submit!!</b></button><br>
+        <button type="button"><i>Button!!</i></button><br>
+    </form>
+
+</body>
+
+</html>
